@@ -1,0 +1,25 @@
+# FreeVPN-RF — Файл подписки
+# Обновлено: 2026-06-02
+# Формат: Sing-box / Clash Meta / Hiddify
+#
+# Импортируйте этот файл в ваш VPN-клиент:
+# Hiddify → Добавить профиль → Из файла
+# Nekoray  → Программа → Импорт из файла
+# v2rayNG  → Настройки → Импорт конфига
+#
+# Обновления конфигов — каждые 12 часов.
+# Подпишитесь на Telegram-канал для уведомлений: t.me/yourchannelname
+#
+# ============================================================
+# Замените заглушки реальными данными от ваших серверов
+# ============================================================
+
+vless://UUID@SERVER_IP_1:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.microsoft.com&fp=chrome&pbk=PUBLIC_KEY_1&sid=SHORT_ID_1&type=tcp&headerType=none#FreeVPN-RF-VLESS-Reality-DE-01
+
+vless://UUID@SERVER_IP_2:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.youtube.com&fp=firefox&pbk=PUBLIC_KEY_2&sid=SHORT_ID_2&type=tcp&headerType=none#FreeVPN-RF-VLESS-Reality-NL-01
+
+hysteria2://PASSWORD@SERVER_IP_3:443?sni=example.com&insecure=0#FreeVPN-RF-Hysteria2-FI-01
+
+ss://cmM0LW1kNTpQQVNTV09SRA==@SERVER_IP_4:8388#FreeVPN-RF-SS2022-SE-01
+
+vmess://eyJ2IjoiMiIsInBzIjoiRnJlZVZQTi1SRi1WTUVTUy1XUy1GUi0wMSIsImFkZCI6IlNFUlZFUl9JUF81IiwicG9ydCI6NDQzLCJpZCI6IlVVSUQiLCJhaWQiOjAsInNjeSI6ImF1dG8iLCJuZXQiOiJ3cyIsInR5cGUiOiJub25lIiwiaG9zdCI6InlvdXJkb21haW4uY29tIiwicGF0aCI6Ii93cyIsInRscyI6InRscyIsInNuaSI6InlvdXJkb21haW4uY29tIiwiZnAiOiJjaHJvbWUifQ==

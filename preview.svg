@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="480" viewBox="0 0 800 480">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#052e16"/>
+      <stop offset="100%" style="stop-color:#14532d"/>
+    </linearGradient>
+    <filter id="sh2">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="480" fill="url(#bg2)" rx="14"/>
+
+  <!-- Title bar -->
+  <rect x="0" y="0" width="800" height="44" fill="#14532d" rx="14"/>
+  <rect x="0" y="30" width="800" height="14" fill="#14532d"/>
+  <circle cx="24" cy="22" r="7" fill="#ef4444"/>
+  <circle cx="46" cy="22" r="7" fill="#f59e0b"/>
+  <circle cx="68" cy="22" r="7" fill="#22c55e"/>
+  <text x="400" y="27" font-family="'Segoe UI', Arial, sans-serif" font-size="13"
+        fill="#bbf7d0" text-anchor="middle" font-weight="600">FreeVPN-RF — Обход блокировок РКН 2026</text>
+
+  <!-- Main card -->
+  <rect x="40" y="66" width="340" height="398" fill="#166534" rx="12" filter="url(#sh2)" opacity="0.92"/>
+
+  <!-- Shield big icon area -->
+  <circle cx="210" cy="150" r="58" fill="#15803d" opacity="0.6"/>
+  <path d="M210 100 L254 120 L254 148 C254 178 234 200 210 208 C186 200 166 178 166 148 L166 120 Z"
+        fill="rgba(255,255,255,0.15)" stroke="#86efac" stroke-width="2"/>
+  <path d="M195 150 L206 162 L226 138" stroke="#4ade80" stroke-width="4"
+        stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <!-- Status: Connected -->
+  <circle cx="180" cy="228" r="8" fill="#4ade80"/>
+  <text x="196" y="233" font-family="'Segoe UI', Arial, sans-serif" font-size="15"
+        fill="#4ade80" font-weight="700">ПОДКЛЮЧЕНО</text>
+
+  <!-- Server info -->
+  <text x="210" y="266" font-family="'Segoe UI', Arial, sans-serif" font-size="11"
+        fill="#86efac" text-anchor="middle">🇩🇪 Германия, Frankfurt — VLESS+Reality</text>
+  <text x="210" y="286" font-family="'Courier New', monospace" font-size="10"
+        fill="#6ee7b7" text-anchor="middle">IP: 185.XXX.XXX.XXX  Пинг: 38ms</text>
+
+  <!-- Stats row -->
+  <rect x="60" y="304" width="140" height="56" rx="8" fill="#15803d"/>
+  <rect x="220" y="304" width="140" height="56" rx="8" fill="#15803d"/>
+  <text x="130" y="325" font-family="'Segoe UI', Arial, sans-serif" font-size="10"
+        fill="#86efac" text-anchor="middle">↓ ЗАГРУЗКА</text>
+  <text x="130" y="347" font-family="'Segoe UI', Arial, sans-serif" font-size="16"
+        fill="white" text-anchor="middle" font-weight="700">89.4 Мбит/с</text>
+  <text x="290" y="325" font-family="'Segoe UI', Arial, sans-serif" font-size="10"
+        fill="#86efac" text-anchor="middle">↑ ОТДАЧА</text>
+  <text x="290" y="347" font-family="'Segoe UI', Arial, sans-serif" font-size="16"
+        fill="white" text-anchor="middle" font-weight="700">12.1 Мбит/с</text>
+
+  <!-- Disconnect button -->
+  <rect x="82" y="376" width="256" height="46" rx="10" fill="#dc2626"/>
+  <text x="210" y="403" font-family="'Segoe UI', Arial, sans-serif" font-size="14"
+        fill="white" text-anchor="middle" font-weight="700">⏹ Отключить</text>
+
+  <!-- Uptime -->
+  <text x="210" y="448" font-family="'Courier New', monospace" font-size="11"
+        fill="#86efac" text-anchor="middle">Время сессии: 01:42:17</text>
+
+  <!-- Right panel: server list -->
+  <rect x="402" y="66" width="356" height="398" fill="#052e16" rx="12" opacity="0.95"/>
+  <text x="580" y="92" font-family="'Segoe UI', Arial, sans-serif" font-size="13"
+        fill="#4ade80" text-anchor="middle" font-weight="700">СПИСОК СЕРВЕРОВ (150+)</text>
+
+  <!-- Server list items -->
+  <g font-family="'Segoe UI', Arial, sans-serif" font-size="11.5">
+    <!-- Active row -->
+    <rect x="410" y="104" width="340" height="34" rx="6" fill="#166534"/>
+    <text x="424" y="125" fill="#4ade80">● 🇩🇪 Германия #01     VLESS+Reality    38ms</text>
+
+    <text x="424" y="159" fill="#86efac">○ 🇳🇱 Нидерланды #01  VLESS+Reality    44ms</text>
+    <text x="424" y="183" fill="#86efac">○ 🇫🇮 Финляндия #01   Hysteria2        52ms</text>
+    <text x="424" y="207" fill="#86efac">○ 🇫🇷 Франция #01     VLESS+Reality    61ms</text>
+    <text x="424" y="231" fill="#86efac">○ 🇸🇪 Швеция #01      Shadowsocks      67ms</text>
+    <text x="424" y="255" fill="#86efac">○ 🇦🇹 Австрия #01     Hysteria2        71ms</text>
+    <text x="424" y="279" fill="#86efac">○ 🇺🇸 США, NY #01     VLESS+Reality    98ms</text>
+    <text x="424" y="303" fill="#86efac">○ 🇯🇵 Япония #01      Hysteria2       143ms</text>
+    <text x="424" y="321" fill="#6b7280">· · ·  и ещё 142 сервера  · · ·</text>
+  </g>
+
+  <!-- Protocol filter badges -->
+  <rect x="412" y="338" width="96" height="22" rx="6" fill="#166534"/>
+  <text x="460" y="353" font-family="'Segoe UI', Arial, sans-serif" font-size="10"
+        fill="#4ade80" text-anchor="middle">VLESS+Reality</text>
+  <rect x="516" y="338" width="76" height="22" rx="6" fill="#1e3a5f"/>
+  <text x="554" y="353" font-family="'Segoe UI', Arial, sans-serif" font-size="10"
+        fill="#60a5fa" text-anchor="middle">Hysteria2</text>
+  <rect x="600" y="338" width="82" height="22" rx="6" fill="#1e3a5f"/>
+  <text x="641" y="353" font-family="'Segoe UI', Arial, sans-serif" font-size="10"
+        fill="#60a5fa" text-anchor="middle">Shadowsocks</text>
+
+  <!-- Bottom info -->
+  <rect x="410" y="374" width="340" height="76" rx="8" fill="#0a3d20"/>
+  <text x="580" y="396" font-family="'Segoe UI', Arial, sans-serif" font-size="11"
+        fill="#86efac" text-anchor="middle" font-weight="600">Обновление серверов</text>
+  <text x="580" y="416" font-family="'Courier New', monospace" font-size="12"
+        fill="#4ade80" text-anchor="middle">Следующее через: 04:17:33</text>
+  <text x="580" y="436" font-family="'Segoe UI', Arial, sans-serif" font-size="10"
+        fill="#6ee7b7" text-anchor="middle">Конфигов загружено: 150  •  Активных: 138</text>
+
+  <!-- Badge -->
+  <rect x="614" y="72" width="130" height="24" rx="6" fill="#4ade80" opacity="0.95"/>
+  <text x="679" y="88" font-family="'Segoe UI', Arial, sans-serif" font-size="10.5"
+        fill="#052e16" text-anchor="middle" font-weight="800">✓ Бесплатно | GPL-3.0</text>
+</svg>
