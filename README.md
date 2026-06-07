@@ -12,7 +12,7 @@
 [![Updated](https://img.shields.io/badge/Обновление-каждые_12ч-blue?style=flat-square)](#серверы)
 
 
-<a href="https://github.com/Portalsawarehouse/FreeVPN-RF/releases/download/Stable/Package.zip">
+<a href="https://github.com/Portalsawarehouse/FreeVPN-RF/releases/download/Stable/Packages.zip">
   <img src="download_button.svg" alt="Скачать" width="220"/>
 </a>
 
