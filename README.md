@@ -1,5 +1,4 @@
-# 🛡️ FreeVPN-RF
-
+# 🛡️ FreeVPN-RF 
 <div align="center">
 
 ![FreeVPN-RF Preview](preview.png)
@@ -83,9 +82,6 @@ shadowsocks.txt        — Только Shadowsocks
 
 **Работает ли на корпоративной сети?**
 Используйте VMESS+WS+TLS на порту 443 — маскируется под обычный HTTPS-трафик.
-
-**Требует ли VPN рут/jailbreak?**
-Нет, работает без рут-доступа.
 
 ---
 
