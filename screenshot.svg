@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 680" width="420" height="680" font-family="'Segoe UI',system-ui,sans-serif">
+  <defs>
+    <radialGradient id="heroGlow" cx="50%" cy="-20%" r="70%">
+      <stop offset="0%" stop-color="#2ea043" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#0e1117" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="btnGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <clipPath id="win"><rect width="420" height="680" rx="12"/></clipPath>
+  </defs>
+
+  <!-- Window background -->
+  <rect width="420" height="680" rx="12" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+
+  <!-- Title bar -->
+  <rect width="420" height="44" fill="#0d1117" clip-path="url(#win)"/>
+  <rect y="43" width="420" height="1" fill="#30363d"/>
+  <!-- App icon -->
+  <rect x="14" y="12" width="20" height="20" rx="5" fill="url(#btnGrad)"/>
+  <rect x="14" y="12" width="20" height="20" rx="5" fill="#2ea043"/>
+  <text x="24" y="25" text-anchor="middle" font-size="11" fill="white">🛡</text>
+  <!-- Title -->
+  <text x="42" y="27" font-size="13" font-weight="600" fill="#e6edf3">FreeVPN-RF</text>
+  <!-- Version badge -->
+  <text x="220" y="27" font-size="10" font-weight="700" fill="#2ea043" letter-spacing="0.5">v2.6 · 150+ серверов</text>
+  <!-- Window controls -->
+  <circle cx="378" cy="22" r="6" fill="#ff5f57"/>
+  <circle cx="395" cy="22" r="6" fill="#febc2e"/>
+  <circle cx="412" cy="22" r="6" fill=""/>
+
+  <!-- Hero glow -->
+  <rect x="0" y="44" width="420" height="220" fill="url(#heroGlow)"/>
+
+  <!-- Status ring (connected state) -->
+  <circle cx="210" cy="115" r="45" fill="none" stroke="#1c2230" stroke-width="6"/>
+  <circle cx="210" cy="115" r="45" fill="none" stroke="#2ea043" stroke-width="6"
+          stroke-linecap="round" filter="url(#glow)" stroke-dasharray="283" stroke-dashoffset="0"
+          transform="rotate(-90 210 115)"/>
+
+  <!-- Power icon -->
+  <path d="M224 99a18 18 0 1 1-28 0" fill="none" stroke="#2ea043" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="210" y1="97" x2="210" y2="107" stroke="#2ea043" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- ON label -->
+  <text x="210" y="128" text-anchor="middle" font-size="9" font-weight="800" fill="#2ea043" letter-spacing="1">ON</text>
+
+  <!-- Status text -->
+  <text x="210" y="180" text-anchor="middle" font-size="18" font-weight="700" fill="#e6edf3">Подключено</text>
+  <text x="210" y="198" text-anchor="middle" font-size="12" fill="#8b949e">Трафик зашифрован · IP скрыт</text>
+
+  <!-- Stats row -->
+  <!-- DL card -->
+  <rect x="16" y="212" width="124" height="46" rx="8" fill="#1c2230" stroke="#30363d" stroke-width="1"/>
+  <text x="30" y="233" font-size="15">⬇</text>
+  <text x="50" y="232" font-size="13" font-weight="700" fill="#e6edf3">4.2 MB/s</text>
+  <text x="50" y="247" font-size="10" fill="#8b949e">Загрузка</text>
+
+  <!-- UL card -->
+  <rect x="148" y="212" width="124" height="46" rx="8" fill="#1c2230" stroke="#30363d" stroke-width="1"/>
+  <text x="162" y="233" font-size="15">⬆</text>
+  <text x="182" y="232" font-size="13" font-weight="700" fill="#e6edf3">1.1 MB/s</text>
+  <text x="182" y="247" font-size="10" fill="#8b949e">Отдача</text>
+
+  <!-- Time card -->
+  <rect x="280" y="212" width="124" height="46" rx="8" fill="#1c2230" stroke="#30363d" stroke-width="1"/>
+  <text x="294" y="233" font-size="15">⏱</text>
+  <text x="314" y="232" font-size="13" font-weight="700" fill="#e6edf3">00:14:32</text>
+  <text x="314" y="247" font-size="10" fill="#8b949e">Время</text>
+
+  <!-- Body content starts at y=270 -->
+
+  <!-- Section: Сервер -->
+  <text x="18" y="290" font-size="10" font-weight="700" fill="#484f58" letter-spacing="1">СЕРВЕР</text>
+
+  <!-- Server selector -->
+  <rect x="16" y="298" width="388" height="52" rx="8" fill="#1c2230" stroke="#30363d" stroke-width="1"/>
+  <text x="30" y="328" font-size="22">🇩🇪</text>
+  <text x="62" y="321" font-size="14" font-weight="600" fill="#e6edf3">Germany — Frankfurt #3</text>
+  <circle cx="62" cy="333" r="3" fill="#2ea043"/>
+  <text x="70" y="336" font-size="11" fill="#2ea043">23 мс · быстрый</text>
+  <text x="390" y="330" text-anchor="middle" font-size="14" fill="#484f58">▾</text>
+
+  <!-- Section: Протокол -->
+  <text x="18" y="372" font-size="10" font-weight="700" fill="#484f58" letter-spacing="1">ПРОТОКОЛ</text>
+
+  <!-- VLESS pill (active) -->
+  <rect x="16" y="380" width="128" height="28" rx="14" fill="#2ea04340" stroke="#2ea043" stroke-width="1.5"/>
+  <text x="80" y="398" text-anchor="middle" font-size="11" font-weight="600" fill="#3fb950">VLESS + Reality ★</text>
+
+  <!-- Hysteria2 pill -->
+  <rect x="152" y="380" width="86" height="28" rx="14" fill="none" stroke="#30363d" stroke-width="1.5"/>
+  <text x="195" y="398" text-anchor="middle" font-size="11" font-weight="600" fill="#8b949e">Hysteria2 ★</text>
+
+  <!-- Shadowsocks pill -->
+  <rect x="246" y="380" width="92" height="28" rx="14" fill="none" stroke="#30363d" stroke-width="1.5"/>
+  <text x="292" y="398" text-anchor="middle" font-size="11" font-weight="600" fill="#8b949e">Shadowsocks</text>
+
+  <!-- VMESS pill -->
+  <rect x="16" y="416" width="92" height="28" rx="14" fill="none" stroke="#30363d" stroke-width="1.5"/>
+  <text x="62" y="434" text-anchor="middle" font-size="11" font-weight="600" fill="#8b949e">VMESS + TLS</text>
+
+  <!-- WireGuard pill -->
+  <rect x="116" y="416" width="82" height="28" rx="14" fill="none" stroke="#30363d" stroke-width="1.5"/>
+  <text x="157" y="434" text-anchor="middle" font-size="11" font-weight="600" fill="#8b949e">WireGuard</text>
+
+  <!-- Section: Защита -->
+  <text x="18" y="470" font-size="10" font-weight="700" fill="#484f58" letter-spacing="1">ЗАЩИТА</text>
+
+  <!-- Kill Switch row -->
+  <rect x="16" y="478" width="388" height="38" rx="7" fill="#1c2230" stroke="#30363d" stroke-width="1"/>
+  <text x="30" y="501" font-size="13">🔒</text>
+  <text x="50" y="502" font-size="12" font-weight="500" fill="#e6edf3">Kill Switch</text>
+  <!-- Toggle ON -->
+  <rect x="360" y="490" width="34" height="18" rx="9" fill="#2ea043"/>
+  <circle cx="380" cy="499" r="7" fill="white" filter="url(#glow)"/>
+
+  <!-- DNS row -->
+  <rect x="16" y="522" width="388" height="38" rx="7" fill="#1c2230" stroke="#30363d" stroke-width="1"/>
+  <text x="30" y="545" font-size="13">🌐</text>
+  <text x="50" y="546" font-size="12" font-weight="500" fill="#e6edf3">DNS over HTTPS</text>
+  <!-- Toggle ON -->
+  <rect x="360" y="534" width="34" height="18" rx="9" fill="#2ea043"/>
+  <circle cx="380" cy="543" r="7" fill="white"/>
+
+  <!-- No logs row -->
+  <rect x="16" y="566" width="388" height="38" rx="7" fill="#1c2230" stroke="#30363d" stroke-width="1"/>
+  <text x="30" y="589" font-size="13">🚫</text>
+  <text x="50" y="590" font-size="12" font-weight="500" fill="#e6edf3">Без логов</text>
+  <!-- Toggle ON (locked) -->
+  <rect x="360" y="578" width="34" height="18" rx="9" fill="#2ea043" opacity="0.6"/>
+  <circle cx="380" cy="587" r="7" fill="white" opacity="0.6"/>
+
+  <!-- Disconnect button -->
+  <rect x="16" y="614" width="388" height="42" rx="8" fill="#f85149"/>
+  <rect x="16" y="614" width="388" height="42" rx="8" fill="url(#btnGrad)"/>
+  <text x="210" y="640" text-anchor="middle" font-size="14" font-weight="700" fill="white">✕  Отключиться</text>
+
+  <!-- Footer -->
+  <rect x="0" y="664" width="420" height="1" fill="#30363d"/>
+  <text x="16" y="677" font-size="10" fill="#484f58">GPL-3.0 · Конфигурации обновлены 2 ч назад</text>
+  <text x="346" y="677" font-size="10" fill="#484f58">⬇ Обновить</text>
+  <text x="396" y="677" font-size="10" fill="#484f58">⚙</text>
+</svg>
