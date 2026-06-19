@@ -3,7 +3,7 @@
 
 ![FreeVPN-RF Preview](screenshot.svg)
 
-**Бесплатный ВПН для обхода блокировок в РФ — 2026**
+**Бесплатный ВПН для обхода блокировок в РФ — 2026!**
 
 [![Platform](https://img.shields.io/badge/Windows%20|%20Android%20|%20iOS%20|%20Linux-supported-green?style=flat-square)](#установка)
 [![License](https://img.shields.io/badge/License-GPL--3.0-orange?style=flat-square)](LICENSE)
